@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1ec46857-951d-4212-989b-744c33479bc2" version="0.9.0">
+  <Properties>
+    <Name>Drapeaux des pays</Name>
+    <Description>Civilization color improvements</Description>
+    <Teaser>Civilization color improvements</Teaser>
+    <Authors>Bradd Szonye</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="HERALDRY">
+      <Properties>
+        <LoadOrder>3</LoadOrder>
+      </Properties>
+      <File>drapeaux.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="HERALDRY">
+      <Properties>
+        <LoadOrder>3</LoadOrder>
+      </Properties>
+      <File>drapeaux.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>drapeaux.sql</File>
+  </Files>
+</Mod>
